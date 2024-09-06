@@ -1,0 +1,123 @@
+body {
+  background: url("https://hubstaff.com/blog/wp-content/uploads/2023/11/Blog-header-template-61.png") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.pomodoro {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 480px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: 'Arial', sans-serif; /* Added font family */
+  color: #ffffff; /* Added text color */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Added text shadow */
+}
+
+.pomodoro h1, .pomodoro h2, .pomodoro p {
+  text-align: center;
+  margin: 0 0 15px;
+}
+
+.pomodoro h1 {
+  font-size: 36px; /* Adjusted font size */
+  font-weight: bold; /* Added font weight */
+}
+
+.pomodoro h2 {
+  font-size: 28px; /* Adjusted font size */
+  font-weight: semi-bold; /* Added font weight */
+}
+
+.pomodoro p {
+  font-size: 18px; /* Adjusted font size */
+}
+
+.flip-clock-wrapper {
+  max-width: 460px;
+  margin: 3em auto 2em;
+  display: flex;
+  justify-content: center;
+}
+
+.col-md-4 {
+  display: flex;
+  justify-content: center;
+}
+
+.col-md-2 {
+  display: flex;
+  justify-content: center;
+  height: 34px;
+  align-items: center;
+}
+
+.counter {
+  display: flex;
+  justify-content: center;
+}
+
+.clock {
+  margin-top: 30px;
+}
+
+.container {
+  /* Add any additional styles for .container if needed */
+}
+.middle {
+  display: inline-block;
+}
+
+#btns {
+  display: flex;
+  justify-content: center;
+}
+
+#stop {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.btn {
+  background-color: #4B0082; /* Indigo color for a fantasy theme */
+  color: #FFFFFF; /* White text color */
+  font-family: 'Cinzel', serif; /* Added decorative font */
+  font-size: 20px; /* Increased font size */
+  padding: 10px 20px; /* Added padding for better button size */
+  border: 2px solid #FFD700; /* Gold border */
+  border-radius: 10px; /* Rounded corners */
+  text-shadow: 1px 1px 2px #000000; /* Added text shadow */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition for hover and active effects */
+}
+
+.btn:hover {
+  background-color: #6A0DAD; /* Darker indigo on hover */
+}
+
+.btn:active, .btn.active {
+  background-color: #FFD700; /* Gold color when active */
+  color: #4B0082; /* Indigo text color */
+  transform: scale(1.1); /* Slightly enlarge the button */
+  box-shadow: 0 0 10px #FFD700; /* Glowing effect */
+}
+#sessInc, #sessDec, #breakInc, #breakDec {
+  font-weight: bold;
+}
+
+#stats {
+  background-color: #333333;
+  width: 220px;
+  height: 70px;
+  border-radius: 10px;
+  color: #CCCCCC;
+  font-size: 45px;
+  text-align: center;
+}
+
+#statRow {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}

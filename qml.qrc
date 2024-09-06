@@ -1,0 +1,45 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>HomeForm.qml</file>
+        <file>Device.qml</file>
+        <file>qtquickcontrols2.conf</file>
+        <file>qmldir</file>
+        <file>AppTheme.qml</file>
+        <file>GoogleDashboard.qml</file>
+        <file>YouTube.qml</file>
+        <file>Trailers.qml</file>
+        <file>images/home.svg</file>
+        <file>images/imdb.svg</file>
+        <file>images/youtube.svg</file>
+        <file>images/ui-power.svg</file>
+        <file>images/terminal.svg</file>
+        <file>images/reboot.svg</file>
+        <file>images/gears.svg</file>
+        <file>images/clapperboard.svg</file>
+        <file>images/raspberry-pi.svg</file>
+        <file>images/radio.svg</file>
+        <file>Radio.qml</file>
+        <file>images/menu.svg</file>
+        <file>images/back.svg</file>
+        <file>images/configuration.svg</file>
+        <file>Teams.qml</file>
+        <file>About.qml</file>
+        <file>images/profile.svg</file>
+        <file>images/timer.svg</file>
+        <file>pomodoro-clock/dist/script.js</file>
+        <file>pomodoro-clock/dist/style.css</file>
+        <file>pomodoro-clock/dist/index.html</file>
+        <file>Timer.qml</file>
+        <file>images/teams.svg</file>
+        <file>Jira.qml</file>
+        <file>images/jira.svg</file>
+        <file>pomodoro-clock/dist/desk-white-black-header.png</file>
+        <file>images/notion.svg</file>
+        <file>notion.qml</file>
+        <file>images/2021_Facebook_icon.svg</file>
+        <file>images/github-svgrepo-com.svg</file>
+        <file>images/linkedin-svgrepo-com.svg</file>
+        <file>images/twitter-svgrepo-com.svg</file>
+    </qresource>
+</RCC>
