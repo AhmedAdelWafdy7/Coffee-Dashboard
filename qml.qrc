@@ -41,5 +41,7 @@
         <file>images/github-svgrepo-com.svg</file>
         <file>images/linkedin-svgrepo-com.svg</file>
         <file>images/twitter-svgrepo-com.svg</file>
+        <file>images/Netflix_icon.svg</file>
+        <file>Netflix.qml</file>
     </qresource>
 </RCC>

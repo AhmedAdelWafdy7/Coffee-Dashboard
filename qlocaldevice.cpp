@@ -1,8 +1,8 @@
-#include <QCoreApplication>
 #include "qlocaldevice.h"
-#include <unistd.h>
-#include <sys/reboot.h>
+#include <QCoreApplication>
 #include <QtNetwork/QNetworkInterface>
+#include <sys/reboot.h>
+#include <unistd.h>
 
 QLocalDevice::QLocalDevice(QObject *parent)
     : QObject(parent)
@@ -10,9 +10,7 @@ QLocalDevice::QLocalDevice(QObject *parent)
     qDebug() << "Entering Function Name: " << Q_FUNC_INFO;
 }
 
-QLocalDevice::~QLocalDevice()
-{
-}
+QLocalDevice::~QLocalDevice() {}
 
 /*!
  * Reboots the system. Does not return.
@@ -27,7 +25,6 @@ void QLocalDevice::reboot()
     system("reboot");
     qWarning("reboot returned");
 }
-
 
 /*!
  * Shuts down the system. Does not return.
@@ -51,32 +48,27 @@ void QLocalDevice::terminal()
     qWarning("terminal returned");
 }
 
-
 bool QLocalDevice::isConnectedToNetwork()
 {
     QList<QNetworkInterface> ifaces = QNetworkInterface::allInterfaces();
     bool result = false;
 
-    for (int i = 0; i < ifaces.count(); i++)
-    {
+    for (int i = 0; i < ifaces.count(); i++) {
         QNetworkInterface iface = ifaces.at(i);
-        if ( iface.flags().testFlag(QNetworkInterface::IsUp)
-             && !iface.flags().testFlag(QNetworkInterface::IsLoopBack) )
-        {
-
+        if (iface.flags().testFlag(QNetworkInterface::IsUp)
+            && !iface.flags().testFlag(QNetworkInterface::IsLoopBack)) {
 #ifdef DEBUG
             // details of connection
             qDebug() << "name:" << iface.name() << endl
-                    << "ip addresses:" << endl
-                    << "mac:" << iface.hardwareAddress() << endl;
+                     << "ip addresses:" << endl
+                     << "mac:" << iface.hardwareAddress() << endl;
 #endif
 
             // this loop is important
-            for (int j=0; j<iface.addressEntries().count(); j++)
-            {
+            for (int j = 0; j < iface.addressEntries().count(); j++) {
 #ifdef DEBUG
-                qDebug() << iface.addressEntries().at(j).ip().toString()
-                        << " / " << iface.addressEntries().at(j).netmask().toString() << endl;
+                qDebug() << iface.addressEntries().at(j).ip().toString() << " / "
+                         << iface.addressEntries().at(j).netmask().toString() << endl;
 #endif
 
                 // we have an interface that is up, and has an ip address
@@ -88,7 +80,6 @@ bool QLocalDevice::isConnectedToNetwork()
                     result = true;
             }
         }
-
     }
 
     return result;

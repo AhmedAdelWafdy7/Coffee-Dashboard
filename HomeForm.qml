@@ -40,12 +40,12 @@ Page {
             id: webViewPlaceholder
             anchors.fill: parent
             z: 1
-            color: "white"
+            color: "#ecf0f1"
             Label{
                 text: "Welcome to Wafdunix, please wait..."
                 anchors.centerIn: parent
                 font.pixelSize: AppTheme.menuTextSize
-                color: "black"
+                color: "#2ecc71"
             }
 
             BusyIndicator {

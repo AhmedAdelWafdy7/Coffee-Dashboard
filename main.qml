@@ -64,11 +64,9 @@ ApplicationWindow {
 
             ItemDelegate {
                 text: qsTr("Microsoft Teams")
-                font.pixelSize: NewTheme.menuTextSize
+                font.pixelSize:AppTheme.menuTextSize
                 width: parent.width
                 icon.source: "/images/teams.svg"
-                icon.width: 48  // Increased icon width
-                icon.height: 48 // Increased icon height
                 onClicked: {
                     stackView.push("Teams.qml")
                     drawer.close()
@@ -107,6 +105,16 @@ ApplicationWindow {
                 }
             }
             ItemDelegate {
+                text: qsTr("NETFLIX")
+                font.pixelSize: AppTheme.menuTextSize
+                width: parent.width
+                icon.source: "/images/Netflix_icon.svg"
+                onClicked: {
+                    stackView.push("Netflix.qml")
+                    drawer.close()
+                }
+            }
+            ItemDelegate {
                 text: qsTr("Movie Trailers")
                 font.pixelSize: AppTheme.menuTextSize
                 width: parent.width
@@ -127,6 +135,16 @@ ApplicationWindow {
                 }
             }
             ItemDelegate {
+                text: qsTr("Notion")
+                font.pixelSize: AppTheme.menuTextSize
+                width: parent.width
+                icon.source: "/images/notion.svg"
+                onClicked: {
+                    stackView.push("notion.qml")
+                    drawer.close()
+                }
+            }
+            ItemDelegate {
                 text: qsTr("Device Management")
                 font.pixelSize: AppTheme.menuTextSize
                 width: parent.width
@@ -143,16 +161,6 @@ ApplicationWindow {
                 icon.source: "/images/profile.svg"
                 onClicked: {
                     stackView.push("About.qml")
-                    drawer.close()
-                }
-            }
-            ItemDelegate {
-                text: qsTr("Notion")
-                font.pixelSize: AppTheme.menuTextSize
-                width: parent.width
-                icon.source: "/images/notion.svg"
-                onClicked: {
-                    stackView.push("notion.qml")
                     drawer.close()
                 }
             }

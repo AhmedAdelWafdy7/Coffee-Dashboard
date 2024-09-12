@@ -1,8 +1,8 @@
 #ifndef QLOCALDEVICE_H
 #define QLOCALDEVICE_H
 
-#include <qobject.h>
 #include <qdebug.h>
+#include <qobject.h>
 
 class QLocalDevice : public QObject
 {
@@ -11,10 +11,11 @@ class QLocalDevice : public QObject
 public:
     QLocalDevice(QObject *parent = Q_NULLPTR);
     ~QLocalDevice();
-    Q_INVOKABLE bool postMessage(const QString &msg) {
-            qDebug() << "Called the C++ method with" << msg;
-            return true;
-        }
+    Q_INVOKABLE bool postMessage(const QString &msg)
+    {
+        qDebug() << "Called the C++ method with" << msg;
+        return true;
+    }
     bool isConnectedToNetwork();
 
 public Q_SLOTS:
