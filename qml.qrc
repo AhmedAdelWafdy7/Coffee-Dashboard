@@ -43,5 +43,35 @@
         <file>images/twitter-svgrepo-com.svg</file>
         <file>images/Netflix_icon.svg</file>
         <file>Netflix.qml</file>
+        <file>barista_cafe/css/bootstrap-icons.css</file>
+        <file>barista_cafe/css/bootstrap.min.css</file>
+        <file>barista_cafe/css/tooplate-barista.css</file>
+        <file>barista_cafe/css/vegas.min.css</file>
+        <file>barista_cafe/fonts/bootstrap-icons.woff</file>
+        <file>barista_cafe/fonts/bootstrap-icons.woff2</file>
+        <file>barista_cafe/images/reviews/senior-man-white-sweater-eyeglasses.jpg</file>
+        <file>barista_cafe/images/reviews/young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair.jpg</file>
+        <file>barista_cafe/images/reviews/young-woman-with-round-glasses-yellow-sweater.jpg</file>
+        <file>barista_cafe/images/slides/sincere-laugh-showing-picture-smartphone-casual-meeting-with-best-friends-restaurant-terrace.jpg</file>
+        <file>barista_cafe/images/team/cute-korean-barista-girl-pouring-coffee-prepare-filter-batch-brew-pour-working-cafe.jpg</file>
+        <file>barista_cafe/images/team/portrait-elegant-old-man-wearing-suit.jpg</file>
+        <file>barista_cafe/images/team/small-business-owner-drinking-coffee.jpg</file>
+        <file>barista_cafe/images/team/smiley-business-woman-working-cashier.jpg</file>
+        <file>barista_cafe/images/barman-with-fruits.jpg</file>
+        <file>barista_cafe/images/coffee-beans.png</file>
+        <file>barista_cafe/images/happy-loving-couple-bakers-drinking-coffee-looking-notebook.jpg</file>
+        <file>barista_cafe/images/happy-waitress-giving-coffee-customers-while-serving-them-coffee-shop.jpg</file>
+        <file>barista_cafe/images/mid-section-waitress-wiping-espresso-machine-with-napkin-cafa-c.jpg</file>
+        <file>barista_cafe/images/young-female-barista-wear-face-mask-serving-take-away-hot-coffee-paper-cup-consumer-cafe.jpg</file>
+        <file>barista_cafe/js/bootstrap.min.js</file>
+        <file>barista_cafe/js/click-scroll.js</file>
+        <file>barista_cafe/js/custom.js</file>
+        <file>barista_cafe/js/jquery.min.js</file>
+        <file>barista_cafe/js/jquery.sticky.js</file>
+        <file>barista_cafe/js/vegas.min.js</file>
+        <file>barista_cafe/videos/pexels-mike-jones-9046237.mp4</file>
+        <file>barista_cafe/ABOUT THIS TEMPLATE.txt</file>
+        <file>barista_cafe/index.html</file>
+        <file>barista_cafe/reservation.html</file>
     </qresource>
 </RCC>

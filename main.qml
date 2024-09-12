@@ -10,7 +10,7 @@ ApplicationWindow {
     width: screen.width
     height: screen.height
     visible: true
-    title: qsTr("Dashboard")
+    title: qsTr("Coffee Dashboard -WAFDUNIX-")
 
     function reboot()
     {

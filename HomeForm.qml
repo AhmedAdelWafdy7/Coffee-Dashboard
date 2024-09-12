@@ -11,7 +11,7 @@ Page {
 
     WebEngineView {
         id:homepagewebengine
-        url: "https://www.linkedin.com/in/ahmed-wafdy-094567242/"
+        url: "qrc:/barista_cafe/reservation.html"
         anchors.fill: parent
 
         onContextMenuRequested: {
